@@ -329,8 +329,8 @@ img {
 
 
 @media only screen and (max-width: 980px) {
-    .name1 {
-        width: 40%;
+        .name1 {
+            width: 40%;
             
         }
         .pages {
@@ -340,9 +340,7 @@ img {
         }
         #mainStuff {
             width: 80%;
-            position: absolute;
-            left: 5%;
-            margin: auto;
+           
            
         }
         .whiteBgrd {
@@ -416,17 +414,53 @@ img {
     .links1 {
         margin-right: 20px;
     }
-    .portfolioImg {
-        margin: auto;
-    }
+    
     .gallery {
         margin: 15px;
+    }
+    .captionsA {
+        position: absolute;
+        top: 200px;
+        left: 54px;
+        
+    }
+    .captionsB {
+        position: absolute;
+        top: 200px;
+        left: 353px;
+        
+    }
+    .captionsC {
+        position: absolute;
+        top: 490px;
+        left: 54px;
+        
+    }
+    .captionsD {
+        position: absolute;
+        top: 490px;
+        left: 353px;
+        
+    }
+    .captionsE {
+        position: absolute;
+        top: 785px;
+        left: 54px;
+        
+    }
+    .captionsF {
+        position: absolute;
+        top: 785px;
+        left: 353px;
+        
     }
 
     
 }
 
 @media only screen and (max-width: 640px) {
+    
+   
     
     .pages, .name1, .whiteBgrd {
         width: 100%;
@@ -455,8 +489,7 @@ img {
     .photo {
         width: 90%;
         display: block;
-        margin-left: auto;
-        margin-right: auto;
+        
         
     }
     .portfolioImg {
@@ -464,6 +497,45 @@ img {
         margin-top: 30px;
 
     }
-    
+    .overlayText {
+        font-size: 30px;
+        width: 340px;
+    }
+    .captionsA {
+        position: absolute;
+        top: 300px;
+        left: 40px;
+        
+    }
+    .captionsB {
+        position: absolute;
+        top: 764px;
+        left: 40px;
+        
+    }
+    .captionsC {
+        position: absolute;
+        top: 1222px;
+        left: 40px;
+        
+    }
+    .captionsD {
+        position: absolute;
+        top: 1685px;
+        left: 40px;
+        
+    }
+    .captionsE {
+        position: absolute;
+        top: 2140px;
+        left: 40px;
+        
+    }
+    .captionsF {
+        position: absolute;
+        top: 2600px;
+        left: 40px;
+        
+    }
  
 }
