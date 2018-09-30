@@ -1,9 +1,6 @@
-
-
 .gallery {
     text-align: center;
 }
-
 
 .whiteBgrd {  
     margin: auto;
@@ -28,16 +25,12 @@ h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.pages {
-    
+.pages {  
     background-color: white;
-    
-    
     float: left;
     position: absolute;
     top: 35px;
     right: 5%;
-    
 }
 
 .boxAtTop {
@@ -70,6 +63,7 @@ a {
     font-size: 18px;    
     vertical-align: bottom;
 }
+
 .links1 {
     vertical-align: bottom;
 }
@@ -121,8 +115,6 @@ p {
 .pp {
     padding-bottom: 40px;
 }
-
-
 
 h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -216,13 +208,6 @@ textarea {
     width: 271px;
     margin: 21px;
 }
-/*.column img {
-    float: left;
-    width: 275px;
-    
-    border: 3px solid rgb(205, 216, 221);
-    border-radius: 3px;
-} */
 
 .column {
     position: relative;
@@ -319,45 +304,37 @@ img {
     margin: 20px;
 }
 
-
-
-
-
-
-
-
-
-
 @media only screen and (max-width: 980px) {
         .name1 {
-            width: 40%;
-            
+            width: 40%; 
         }
+
         .pages {
-            position: absolute;
-            
-            
+            position: absolute;   
         }
+
         #mainStuff {
-            width: 80%;
-           
-           
+            width: 80%;   
         }
+
         .whiteBgrd {
             margin-left: 30px;
         }
+
         .links1 {
             margin-right: 25px;
-        }  
+        } 
+
         .photographs {
             text-align: center;
         }
+
         .captionsA {
             position: absolute;
             top: 200px;
-            left: 110px;
-            
+            left: 110px; 
         }
+
         .captionsB {
             position: absolute;
             top: 200px;
@@ -386,14 +363,11 @@ img {
             position: absolute;
             top: 785px;
             left: 410px;
-            
         }
-
 }
 
 
 @media only screen and (max-width: 768px) {
-    
     .name1 {
     width: 40%;
         
@@ -459,9 +433,6 @@ img {
 }
 
 @media only screen and (max-width: 640px) {
-    
-   
-    
     .pages, .name1, .whiteBgrd {
         width: 100%;
         
@@ -489,7 +460,6 @@ img {
     .photo {
         width: 90%;
         display: block;
-        
         
     }
     .portfolioImg {
@@ -535,7 +505,6 @@ img {
         position: absolute;
         top: 2600px;
         left: 40px;
-        
     }
  
 }
